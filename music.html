@@ -5,14 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Customer style Sheet Link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="node_modules\@fortawesome\fontawesome-free\css\all.css" />
+
+    <title>Codex</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
-        
-
+        <!-- <a class="navbar-brand" href="index.html" src="random logo" hieght="30" width="30" /></a> -->
+        <div class="collapse navbar-collapse" id="codexNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="music.html"><i class="fa-duotone fa-boombox"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"></a></li>
+            </ul>
+            <spam class="navbar-text ml-auto">
+                <a role="button" id="loginButton">
+                    <i class="fa fa-sign-in"></i> Login
+                </a>
+            </spam>
+        </div>
     </div>
   </nav>
+  <header>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center">Music</h1>
+            <p class="lead"></p>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2 g-4 mx-auto">
+        <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="img/tyler-childers.jpg" class="img-fluid rounded-start" alt="Tyler Childers">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Tyler Childers</h5>
+                        <p class="card-text">Tyler childers king of bluegrass who needs a bridge when you have an epic guitar riff. Songs like Coal, and Nose On The Grindstone have an amazing sound but also talk about the problems of living well below proverty in middle of nowhere kentucky.</p>
+                        <a href="#" class="btn btn-primary">Continue Reading...</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="img/juice-wrld.jpeg" class="img-fluid rounded-start" alt="juice wrld">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Juice Wrld</h5>
+                        <p class="card-text">As a young pubesent lad i listened to heart breaking songs like luicd dreams and all girls are the same. these songs not only got me throught serious breakups but also opened me up to underground rap...</p>
+                        <a href="#" class="btn btn-primary">Continue Reading...</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="img/bad-bunny.jpeg" class="img-fluid rounded-start" alt="bad buuny">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bad Bunny</h5>
+                        <p class="card-text">BBBAADDD bunny pushes gender norms and sings about sexualuality but more importantly if you dont speak spainish it's okay because you can jam to Vete without needing words the song just moves you. Even though he's singing about the betrayal of a women and how se can go to hell.</p>
+                        <a href="#" class="btn btn-primary">Continue Reading...</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</section>
 
     <!-- JQuery must come first, then Popper.js, then the Bootstrap JS plugins -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
